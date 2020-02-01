@@ -1,0 +1,26 @@
+body {
+	margin: 50px 20px;
+}
+header{
+	background: #ccc;
+}
+header h1{
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center; 
+}
+nav a {
+	background: #aaa;
+	color: rgb(0, 0, 0);
+	font-size: 1.1em;
+}
+.left{
+	display: none;
+}
+.right{
+	background: #aaa;
+}
+.right h2{
+	color: #2196f3;
+	text-transform: uppercase;
+}

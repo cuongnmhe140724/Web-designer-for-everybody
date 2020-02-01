@@ -9,7 +9,7 @@ header h1{
 	text-transform: uppercase;
 	text-align: center; 
 }
-nav a {
+nav{
 	background: #aaa;
 	color: rgb(0, 0, 0);
 	font-size: 1.1em;
@@ -19,8 +19,4 @@ nav a {
 }
 .right{
 	background: #aaa;
-}
-.right h2{
-	color: #2196f3;
-	text-transform: uppercase;
 }

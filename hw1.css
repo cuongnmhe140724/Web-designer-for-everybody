@@ -1,6 +1,4 @@
-body {
-	margin: 50px 20px;
-}
+
 header{
 	background: url("../images/flywheel.jpg") fixed center;
 	background-size: 100%;
@@ -13,9 +11,6 @@ header h1{
 	text-transform: uppercase;
 	
 }
-.active{
-	background: #ffff;
-}
 nav a {
 	color: rgb(0, 0, 0);
     padding: 15px 50px;
@@ -23,8 +18,6 @@ nav a {
     border: 1px solid transparent;
     border-radius: 5px;
     font-size: 1.1em;
-    background: rgba(255,255,255,0.3);
-    text-decoration: none;
 }
 main{
 	display: inline-flex;

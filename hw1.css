@@ -32,7 +32,7 @@ main{
 	height: 100px;
 	width: 200px;
 	margin: 20px;
-	border: 2px solid rgba(0, 0, 0, 1.0);
+	border: 2px solid black;
 }
 .right{
 	float: right;

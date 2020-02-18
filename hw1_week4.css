@@ -49,8 +49,6 @@ main{
 .right h2{
 	font-size: 2.2em;
 }
-/* **************************************************************** */
-/* CSS STYLING FOR TABLE (WEEK-4 ASSIGNMENT STARTS) */
 
 /* for making it centre and setting width of table */
 .right table{
@@ -59,11 +57,6 @@ main{
     text-align: left;
     color: #fff;
     font-family: sans-serif;
-}
-
-/* increasing the inside padding of all the row's */
-.right th, td{
-	padding: 15px;
 }
 
 
@@ -83,19 +76,14 @@ main{
 	background-color: #e4f5d3;
 	color: #848484;
 	text-shadow: 2px 2px #fff;
-	font-weight: 600;
-	border-radius: 2px; 
+	font-weight: 600; 
 }
 
 .right tr:nth-child(n + 2){
-	opacity: 0.7;
+	opacity: 1;
 }
 
 /* change opacity on hover effect */
 .right tr:nth-child(n + 2):hover{
 	opacity: 1;
-}
-
-.right tr > th:nth-child(n + 2) , .right tr > td:nth-child(n + 2){
-	text-align: center;
 }

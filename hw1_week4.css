@@ -1,0 +1,101 @@
+body {
+	margin: 50px 20px;
+}
+header{
+	background: url("../images/flywheel.jpg") fixed center;
+	background-size: 100%;
+	text-align: center; 
+	padding: 30px;
+    height: 140px;
+}
+header h1{
+	color: #fff;
+	text-transform: uppercase;
+	
+}
+.active{
+	background: #ffff;
+}
+nav a {
+	color: rgb(0, 0, 0);
+    padding: 15px 50px;
+    margin: 0px 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 1.1em;
+    background: rgba(255,255,255,0.3);
+    text-decoration: none;
+}
+main{
+	display: inline-flex;
+}
+.left{
+	background-color: #767613;
+    padding: 20px 30px;
+    display: inline-grid;
+
+}
+.left img{
+	height: 100px;
+	width: 200px;
+	margin: 20px;
+	border: 2px solid rgba(0, 0, 0, 1.0);
+}
+.right{
+	float: right;
+    padding: 10px;
+    margin-right: 50px;
+}
+.right h2{
+	font-size: 2.2em;
+}
+/* **************************************************************** */
+/* CSS STYLING FOR TABLE (WEEK-4 ASSIGNMENT STARTS) */
+
+/* for making it centre and setting width of table */
+.right table{
+	width: 70%;
+    margin: 0px auto;
+    text-align: left;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+/* increasing the inside padding of all the row's */
+.right th, td{
+	padding: 15px;
+}
+
+
+/* adding linear-gradient and top-border-radius */
+.right tr > th {
+	border-top-right-radius: 5px; 
+    border-top-left-radius: 5px; 
+    border-bottom: 2px solid #b1e153;
+	background: -o-linear-gradient(top, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 37%, rgba(117,137,12,1) 68%, rgba(117,137,12,1) 100%);
+    background: -moz-linear-gradient(top, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 37%, rgba(117,137,12,1) 68%, rgba(117,137,12,1) 100%);
+    background: -ms-linear-gradient(top, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 37%, rgba(117,137,12,1) 68%, rgba(117,137,12,1) 100%);
+    background: linear-gradient(to bottom, rgba(164,179,87,1) 0%, rgba(117,137,12,1) 37%, rgba(117,137,12,1) 68%, rgba(117,137,12,1) 100%);
+}
+
+/* change the color, background-color, set border-radius */
+.right tr > td {
+	background-color: #e4f5d3;
+	color: #848484;
+	text-shadow: 2px 2px #fff;
+	font-weight: 600;
+	border-radius: 2px; 
+}
+
+.right tr:nth-child(n + 2){
+	opacity: 0.7;
+}
+
+/* change opacity on hover effect */
+.right tr:nth-child(n + 2):hover{
+	opacity: 1;
+}
+
+.right tr > th:nth-child(n + 2) , .right tr > td:nth-child(n + 2){
+	text-align: center;
+}
